@@ -1,1 +1,2 @@
-# parallel-ising-model
+# Parallel Ising Model Simulation
+
