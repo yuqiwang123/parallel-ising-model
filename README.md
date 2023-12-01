@@ -8,7 +8,7 @@ Monte Carlo simulation with Metropolis algorithm is a common way to simulate Isi
 1. Initial a configuration of spins.
 2. Flip a randomly chosen spin.
 3. If the change in energy is negative, we accept this flip.
-4. Otherwise, the move is accepted with probability $e^(-\beta\deltaE)$, where β is the inverse of the temperature of the system and ∆E is the difference in the energy from the spin flip.
+4. Otherwise, the move is accepted with probability $e^{(-\beta \delta E)}$, where β is the inverse of the temperature of the system and ∆E is the difference in the energy from the spin flip.
 
 ## Parallelization
 The N $\times$ N model can be divided into blocks which are updated .
