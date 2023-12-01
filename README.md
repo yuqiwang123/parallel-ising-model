@@ -22,6 +22,6 @@ The downside is the performance. So we want to parallel this process.
 ## Parallelization
 We use checkerboard algorithm to parallel the update process. As the flip of a spin will only be decided by its four adjacent spins, the lattice can be divided into two parts which are shown as white color and black color squares in the figure. The spins of the same color can flip at the same time without updating the opposite color spins, which can help with the parallelization. 
 
-Parallel method: GPU could be used to do the parallization. Divide the square lattice into several strips, and each strip can be updated in a GPU block. Each block also needs the bottom spins in above strip and the top spins in below strip. Also, within each strip the updating of same color spins can also be parallelized and run in different threads.
+Parallel method: GPU can be used to do the parallization. Divide the square lattice into several strips, and each strip can be updated in a GPU block. Each block also needs the bottom spins in above strip and the top spins in below strip. Also, within each strip the updating of same color spins can also be parallelized and run in different threads.
 
 <img width="413" alt="Screenshot 2023-11-30 at 8 36 59 PM" src="https://github.com/yuqiwang123/parallel-ising-model/assets/89886045/11538cfb-68af-45b1-91c2-2572f6a756fa">
