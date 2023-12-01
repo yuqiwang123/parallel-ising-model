@@ -14,8 +14,7 @@
 <li>Repeat steps 2 to 4.</li>
 </ol>    
 
-![1*VJuil-iMay2U5LaoYb_vJA](https://github.com/yuqiwang123/parallel-ising-model/assets/89886045/c075f4ec-7904-40f5-bf4d-7b6da531baca =100x20)
-<img src="https://github.com/yuqiwang123/parallel-ising-model/assets/89886045/c075f4ec-7904-40f5-bf4d-7b6da531baca" alt="drawing" width="200"/>
+<img src="https://github.com/yuqiwang123/parallel-ising-model/assets/89886045/c075f4ec-7904-40f5-bf4d-7b6da531baca" alt="drawing" width="500"/>
 
 
 The downside is the performance. So we want to parallel this process.
