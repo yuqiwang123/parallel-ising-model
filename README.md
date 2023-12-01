@@ -20,4 +20,6 @@
 The downside is the performance. So we want to parallel this process.
 
 ## Parallelization
-The N $\times$ N model can be divided into blocks which are updated .
+We use checkerboard algorithm to parallel the update process. As the flip of a spin only 
+
+<img width="413" alt="Screenshot 2023-11-30 at 8 36 59 PM" src="https://github.com/yuqiwang123/parallel-ising-model/assets/89886045/11538cfb-68af-45b1-91c2-2572f6a756fa">
