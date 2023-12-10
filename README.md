@@ -4,6 +4,9 @@
 ```
 nvcc -o ising ising.cu -lcurand
 ./ising
+
+//plot ising model
+python plot.py
 ```
 
 ## MC simulation of Ising Model
