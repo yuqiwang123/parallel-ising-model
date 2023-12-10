@@ -1,5 +1,11 @@
 # Ising Model Simulation
 
+## Run
+```
+nvcc -o ising ising.cu -lcurand
+./ising
+```
+
 ## MC simulation of Ising Model
 <p>Ising model is a well-known model in statistical physics. The 2D Ising model consists of N $\times$ N spins which can be in two states: up(+1) and down(-1).</p>
 
